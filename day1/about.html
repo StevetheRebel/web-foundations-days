@@ -1,87 +1,92 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Day1 | About</title>
-</head>
-<body>
-    <nav>
-      <ul>
-        <li><a href="/web-foundations-days/day1/index.html">Home</a></li>
-        <li><a href="/web-foundations-days/day1/about.html">About</a></li>
-      </ul>
-    </nav>
+  </head>
+  <body>
     <header>
       <h1>QuickNotes</h1>
       <p>Capture ideas before they disappear.</p>
+      <nav>
+        <a href="/web-foundations-days/day1/index.html">Home</a>
+        <a href="/web-foundations-days/day1/about.html">About</a>
+      </nav>
     </header>
 
     <main>
-        <h2>About QuickNOtes</h2>
-        <p>This is an introductory paragraph: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam exercitationem dignissimos vitae, voluptatem suscipit autem ipsum temporibus voluptates veniam optio?</p>
+      <h2>About QuickNOtes</h2>
+      <p>
+        QuickNOtes is my note taking tool where I can be able to add, edit and
+        save texts. It is still a simple HTML structure currently.
+      </p>
 
-        <section>
-            <h3>How to use QuickNOtes</h3>
-            <ol>
-                <li>Open</li>
-                <li>Type</li>
-                <li>Save</li>
-            </ol>
-        </section>
+      <section>
+        <h3>How to use QuickNOtes</h3>
+        <ol>
+          <li>Open the app</li>
+          <li>Type in the input space</li>
+          <li>Save the note for later</li>
+        </ol>
+      </section>
 
-        <section>
-            <h3>Features</h3>
-            <ul>
-                <li>Save</li>
-                <li>Edit</li>
-                <li>Delete</li>
-            </ul>
-        </section>
+      <section>
+        <h3>Features</h3>
+        <ul>
+          <li>Saved notes can be reviewed later</li>
+          <li>You can edit the notes later</li>
+          <li>You can also delete notes when you don't need them.</li>
+        </ul>
+      </section>
 
-        <section>
-            <h3>Keyboard Shortcuts</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Shortcuts</th>
-                        <th>Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Ctrl + C</td>
-                        <td>Copy</td>
-                    </tr>
-                    <tr>
-                        <td>Ctrl + X</td>
-                        <td>Cut</td>
-                    </tr>
-                    <tr>
-                        <td>Ctrl + V</td>
-                        <td>Paste</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+      <section>
+        <h3>Keyboard Shortcuts</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Shortcuts</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Save</td>
+              <td>Saves the note you typed.</td>
+            </tr>
+            <tr>
+              <td>Delete</td>
+              <td>Deletes the note from the list</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
 
-        <section>
-            <h3>Send Feedback</h3>
-            <form action="">
-                <fieldset>
-                    <label for="name">Name:</label>
-                    <input type="tel" name="name" id="name" required>
-                </fieldset>
-                <fieldset>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" required>
-                </fieldset>
-                <fieldset>
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" rows="8" placeholder="Enter message" required></textarea>
-                </fieldset>
-            </form>
-        </section>
+      <section>
+        <h3>Send Feedback</h3>
+        <form action="">
+          <label for="name">Name:</label>
+          <input type="tel" name="name" id="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required />
+
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            rows="8"
+            placeholder="Enter message"
+            required
+          ></textarea>
+
+          <button type="submit">Send feedback</button>
+        </form>
+      </section>
     </main>
-</body>
+
+    <footer>
+      <p>&copy; 2026 QuickNotes. Built during Web Foundations.</p>
+    </footer>
+  </body>
 </html>
