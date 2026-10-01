@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day1 | About</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>QuickNotes</h1>
+      <p>Capture ideas before they disappear.</p>
+      <nav>
+        <a href="/web-foundations-days/day2/index.html">Home</a>
+        <a href="/web-foundations-days/day2/about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>About QuickNotes</h2>
+      <p>
+        QuickNotes is my note taking tool where I can be able to add, edit and
+        save texts. It is still a simple HTML structure currently.
+      </p>
+
+      <section>
+        <h3>How to use QuickNotes</h3>
+        <ol>
+          <li>Open the app</li>
+          <li>Type in the input space</li>
+          <li>Save the note for later</li>
+        </ol>
+      </section>
+
+      <section>
+        <h3>Features</h3>
+        <ul class="features">
+          <li>Saved notes can be reviewed later</li>
+          <li>You can edit the notes later</li>
+          <li>You can also delete notes when you don't need them.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Keyboard Shortcuts</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Shortcuts</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Save</td>
+              <td>Saves the note you typed.</td>
+            </tr>
+            <tr>
+              <td>Delete</td>
+              <td>Deletes the note from the list</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h3>Send Feedback</h3>
+        <form action="">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required />
+
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            rows="8"
+            placeholder="Enter message"
+            required
+          ></textarea>
+
+          <button type="submit">Send feedback</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 QuickNotes. Built during Web Foundations.</p>
+    </footer>
+  </body>
+</html>
