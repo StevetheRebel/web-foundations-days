@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 4 | Notes</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Your notes</h1>
+      <button id="theme-toggle" type="button" aria-pressed="false">Dark mode</button>
+    </header>
+    <label for="note-text">Write a note</label>
+    <textarea id="note-text" rows="8" placeholder="Start typing..." aria-describedby="char-count word-count note-help"></textarea>
+    <div class="counters" aria-live="polite" aria-atomic="true">
+      <p id="char-count">0 / 200 characters</p>
+      <p id="word-count">0 words</p>
+    </div>
+    <p id="note-help">Your draft saves as you type. Press Escape to clear.</p>
+    <button id="clear-btn" type="button">Clear</button>
+  </main>
+</body>
+</html>
