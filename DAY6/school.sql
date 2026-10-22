@@ -83,11 +83,9 @@ SELECT
     s.name,
     s.email
 FROM students AS s
-WHERE NOT EXISTS (
-    SELECT 1
-    FROM enrolments AS e
-    WHERE e.student_id = s.student_id
-)
+LEFT JOIN enrolments AS e
+    ON e.student_id = s.student_id
+WHERE e.enrolment_id IS NULL
 ORDER BY s.name;
 
 -- updating an enrolment grade
